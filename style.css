@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Old Standard TT', serif;
+}
+
+/* Container */
+
+.container{
+    width:100%;
+    max-width:1440px;
+    margin:0 auto;
+    padding:0 40px;
+}
+
+/* Header */
+
+.header{
+    background:#181511;
+}
+
+/* Navbar */
+
+.main_navbar{
+    height:79px;
+    display:flex;
+    align-items:center;
+}
+
+/* Logo */
+
+.main_a{
+    text-decoration:none;
+    color:#FFAE2B;
+    font-size:22px;
+    font-weight:400;
+}
+
+/* Menu */
+
+.lists{
+    display:flex;
+    list-style:none;
+    gap:40px;
+    margin-left:60px;
+}
+
+.lists a{
+    text-decoration:none;
+    color:#ACA592;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    transition:.3s;
+}
+
+.lists a:hover{
+    color:#FFAE2B;
+}
+
+/* Button */
+
+.btn{
+    margin-left:auto;
+
+    padding:14px 28px;
+
+    background:transparent;
+    border:1px solid #FFAE2B;
+
+    color:#FFAE2B;
+
+    font-size:11px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+
+    cursor:pointer;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#FFAE2B;
+    color:#181511;
+}
