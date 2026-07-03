@@ -68,18 +68,13 @@ body{
 
 .btn{
     margin-left:auto;
-
     padding:14px 28px;
-
     background:transparent;
     border:1px solid #FFAE2B;
-
     color:#FFAE2B;
-
     font-size:11px;
     letter-spacing:2px;
     text-transform:uppercase;
-
     cursor:pointer;
     transition:.3s;
 }
